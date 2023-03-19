@@ -63,7 +63,7 @@ public partial class DragAndDropImport : Control
             sprite.Texture = texture;                                   // Set the sprite texture
             sprite.Centered = false;                                    // Make the sprite draw from the top-left corner
         }
-        // If the image loding failed
+        // If the image loading failed
         else
         {
             _textLabel.Text = "Could not load the image:" + imagePath;  // Show the user what went wrong
